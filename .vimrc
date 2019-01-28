@@ -31,6 +31,8 @@ call plug#begin('~/.vim/plugged')
 "   Plug '~/my-prototype-plugin'
 "
 
+Plug 'dracula/vim', { 'as': 'dracula' }
+
 "   " Initialize plugin system
 call plug#end()
 
@@ -41,6 +43,9 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set cindent
+
+syntax on
+color dracula
 
 function! LongestLine_newVimL()
   let lines = map(getline(1, '$'), 'len(v:val)')
