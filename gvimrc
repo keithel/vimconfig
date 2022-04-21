@@ -1,5 +1,6 @@
 set guifont=Lucida_Console:h10:cANSI:qDRAFT
 set background=dark
+
 colorscheme ron
 	:map <M-Esc>[62~ <ScrollWheelUp>
 	:map! <M-Esc>[62~ <ScrollWheelUp>
