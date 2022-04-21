@@ -32,6 +32,7 @@ call plug#begin('~/.vim/plugged')
 "
 
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'https://github.com/vim-scripts/qnamebuf'
 
 "   " Initialize plugin system
 call plug#end()
